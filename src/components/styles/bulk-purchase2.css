@@ -1,0 +1,250 @@
+@media screen and (max-width: 600px) {
+  .bulk-aligning {
+  margin-bottom: -480px; /*Use this for the last component*/
+  margin-top: 550px;
+  background-color: #FFFFF0 !important;
+  }
+}
+
+#bulk-trolley2 {
+    width: 250px;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    #bulk-trolley2 {
+      width: 230px;
+    }
+  }
+
+  #bulk-header-text2 {
+    font-weight: 700;
+    font-size: 48px;
+    display: flex;
+    align-items: flex-end;
+    color: #191970;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: -120px;
+    margin-top: 30px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    #bulk-header-text2 {
+      /* font-family: 'Source Serif Pro'; */
+      /* font-style: normal; */
+      font-weight: 600;
+      font-size: 40px;
+      display: flex;
+      align-items: flex-end;
+      color: #191970;
+      flex: none;
+      margin-left: 10px !important;
+      justify-content: center;
+      /* text-decoration: underline #FEC601; */
+    }
+  }
+
+
+
+  .bulk-qoute2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #191970;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: -120px;
+    margin-top: -60px;
+  }
+  
+  /* @media only screen and (max-width: 600px) {
+      
+      } */
+  
+  @media only screen and (max-width: 600px) {
+    .bulk-qoute2 {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      color: #191970;
+      margin-left: -10px;
+      /* justify-content: center; */
+      text-align: center;
+      margin-top: -55px;
+    }
+  }
+
+
+  .bulk-partner2 {
+    margin-right: 350px;
+    font-size: 18px;
+    background-color: #fec601;
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    .bulk-partner2 {
+      margin-right: -5px !important;
+      background-color: #fec601;
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 25px;
+    }
+  }
+
+
+  .ul-style {
+    list-style: none;
+  }
+
+
+
+  .bulk-bullet-arrow2 {
+    color: #fec601;
+    font-size: 30px !important;
+    margin-left: -300px;
+    
+    
+  }
+  
+  .buy-first-bulk-bullet-arrow2 {
+    margin-left: -425px !important;
+  }
+  
+  
+  @media  screen and (max-width: 600px) {
+    .bulk-bullet-arrow2 {
+      color: #fec601;
+      font-size: 10px !important;
+      margin-left: -40px;
+    }
+
+    .buy-first-bulk-bullet-arrow2 {
+        margin-left: -165px !important;
+      }
+  }
+
+  .bulk-bullet-text {
+    font-size: 15px !important;
+  }
+
+
+  /* Do Bulk Trade Button  */
+.bulk-trade-btn {
+    width: 250px;
+    height: 50px;
+    margin-top: -50px !important;
+    background-color: #FEC601;
+    font-weight: 700;
+    font-size: 22px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    margin-right: 300px;
+    cursor: pointer;
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    text-align: center;
+  
+  }
+
+  .bulk-trade-btn:hover {
+  background-color: #191970 !important;
+  color: #FEC601;
+  transition: 0.5s;
+  border: 1px solid #191970;
+}
+
+@media only screen and (max-width: 600px) {
+    .bulk-trade-btn {
+      width: 250px !important;
+      margin-right: 15px !important;
+      background-color: #FEC601;
+      text-decoration: none;
+      font-size: 25px;
+      color: #191970;
+      border: 1px solid #FEC601;
+      border-radius: 6px;
+      line-height: 2px;
+      margin-bottom: 30px;
+    }
+  }
+
+  #dropdown-basic-button {
+   background-color: #FEC601;
+   border: solid 1px #FEC601;
+   color: red;
+   width: 180px;
+   height: 40px;
+   margin-top: -60px;
+   margin-right: 350px;
+   font-size: 15px;
+  }
+
+  #dropdown-basic-button:hover {
+    background-color: #191970;
+    color: #ffffff;
+    border: solid 1px #FEC601;
+    width: 200px;
+    height: 40px;
+    margin-top: -60px;
+    margin-right: 350px;
+    font-size: 15px;
+   }
+
+   @media screen and (max-width: 600px) {
+    #dropdown-basic-button {
+      background-color: #FEC601;
+      border: solid 1px #FEC601;
+      color: #191970;
+      width: 300px;
+      height: 40px;
+      margin-top: -60px;
+      margin-right: 30px;
+      font-size: 15px;
+     }
+
+     #dropdown-basic-button:hover {
+      background-color: #FEC601;
+      border: solid 1px #FEC601;
+      color: #191970;
+      width: 300px;
+      height: 40px;
+      margin-top: -60px;
+      margin-right: 30px;
+      font-size: 15px;
+     }
+   
+   }
+
+   
+
+   #dropdown-item {
+    width: 195px;
+   }
+
+   @media screen and (max-width: 600px) {
+    #dropdown-item {
+      width: 300px;
+     }
+   }
+
+
+
+  #dropdown-item {
+    /* width: 30px; */
+    font-size: 15px !important;
+  }
+
+
+
+  

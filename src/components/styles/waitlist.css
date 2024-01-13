@@ -1,0 +1,65 @@
+div {
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    background-color: #ebebeb;
+    /* width: 100%; */
+  }
+}
+
+
+
+/* first-div */
+.big-text {
+    margin-top: 25px;
+    color: black;
+    font-family: Poppins;
+    font-size: 30px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .big-text {
+    margin-top: 10px;
+    color: black;
+    /* font-family: Poppins; */
+    font-size: 60px;
+    
+}
+}
+
+
+.coming-soon {
+  font-size: 50px;
+  color: #c7c7c7;
+}
+
+.down-arrow {
+  color: red;
+  font-size:100px !important;
+}
+
+.price-action {
+  font-size: 30px;
+  color: red;
+}
+
+.under-construction {
+    /* margin-top: 25px; */
+    color: red;
+    /* font-family: Poppins; */
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .under-construction {
+    margin-top: 20px;
+    color: #0f52ba;
+    font-size: 20px;
+}
+}
+
+
+

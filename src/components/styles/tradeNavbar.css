@@ -1,0 +1,265 @@
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /* background: linear-gradient(45deg, rgb(252, 252, 252), rgb(255, 255, 255)); */
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    position: fixed;
+    /* position: absolute; */
+    background-image: url('https://res.cloudinary.com/pastorcoder/image/upload/v1661429990/BullStand/bullstand-logo-.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110px !important;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue); */
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  }
+
+
+.list {
+    list-style-type: none;
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .list {
+        list-style-type: none;
+        background: linear-gradient(45deg, #ffffff, #ffffff);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 55px;
+    }
+}
+
+
+
+
+.items {
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+
+
+#logo {
+  margin-right: 260px;
+  margin-top: 10px !important;
+}
+#trade-logo {
+  /* margin-right: 260px; */
+  margin-top: 10px !important;
+  position: relative;
+  right: 480px;
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    display: none;
+    margin-right: 100px;
+  }
+}
+
+.btc {
+  color: black;
+  font-size: 15px;
+  /* margin-right: 15px; */
+} 
+
+
+.buy-btc {
+  color: green;
+  font-size: 15px;
+}
+
+.sell-btc {
+  color: red;
+  font-size: 15px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.usdt {
+  color: black;
+  font-size: 15px;
+  margin-left: 30px;
+} 
+
+@media screen and (max-width: 600px) {
+  .usdt {
+    color: black;
+    font-size: 15px;
+    margin-left: 1px;
+  } 
+}
+
+
+
+.buy-usdt {
+  color: green;
+  font-size: 15px;
+}
+
+.sell-usdt {
+  color: red;
+  font-size: 15px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+.menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 500px){
+    .list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    items:nth-child(1){
+        border-top: 1px solid #e9e8e8;
+        margin-top: 50px;
+    }
+
+    .items {
+        width: 100%;
+        border-top: 1px solid #e9e8e8;
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+
+    .menu {
+        display: block;
+        color: rgba(241, 19, 19, 0.89);
+    }
+}
+
+
+
+/* Buy Button  */
+.buy-crypto-btn {
+    width: 110px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    margin-right: 50px;
+    cursor: pointer;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.363); */
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .buy-crypto-btn {
+      width: 345px !important;
+      height: 40px;
+      margin-right: 15px !important;
+      background-color: #ffffff;
+      text-decoration: none;
+      font-size: 25px;
+      color: #191970;
+      border: 1px solid #FEC601;
+      border-radius: 6px;
+      line-height: 2px;
+      float: right;
+    }
+  }
+  
+  
+  /* Sell Button  */
+   .sell-crypto-btn {
+    width: 140px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #FEC601;
+    /* background: linear-gradient(45deg, #191970,#FEC601); */
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    margin-right: 50px;
+    cursor: pointer;
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .sell-crypto-btn {
+      width: 350px !important;
+      height: 60px;
+      margin-top: 10px;
+      margin-right: 15px !important;
+      background-color:   #FEC601;
+      text-decoration: none;
+      font-size: 25px;
+      color: #191970;
+      border: 1px solid #191970;
+      border-radius: 6px;
+      line-height: 2px;
+      float: right;
+    }
+    
+  }
+  
+  .sell-crypto-btn:hover {
+    background-color: #FEC601 !important;
+    color: #191970;
+    transition: 0.5s;
+    border: 1px solid #191970;
+  }
+  

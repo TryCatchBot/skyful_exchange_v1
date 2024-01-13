@@ -1,0 +1,163 @@
+.parent-color {
+  background-color: #57dd09;
+  height:60px;
+}
+
+/* nav {
+  background-color: red;
+  height:100px;
+} */
+
+a:link {
+  text-decoration: none;
+}
+
+
+.logo-space {
+    width: 600px;
+    /* background-color: red; */
+    height: 60px;
+    display: grid;
+  }
+  
+  
+  
+  #logo {
+    width: 140px;
+    padding-top: 7px;
+    margin-left: 80px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #logo {
+      display: none;
+      width: 10%;
+      padding-top: 7px;
+      /* grid-auto-flow: dense; */
+    }
+  }
+
+
+
+  /* BTC Price  */
+  .btc-price {
+    margin-top: 20px !important;
+    color: #191970;
+    font-size: 14px;
+    padding-bottom: 100px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .btc-price {
+      margin-top: 20px !important;
+      color: #191970;
+      font-size: 14px;
+      padding-bottom: 100px;
+    }
+  }
+
+
+
+  /* Sell-Buy Usdt  */
+  .buy-sell-usdt {
+    margin-top: 20px !important;
+    color: red;
+    font-size: 14px;
+    padding-bottom: 100px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .buy-sell-usdt {
+      margin-top: 20px !important;
+      color: #191970;
+      font-size: 14px;
+      padding-bottom: 100px;
+    }
+  }
+  
+
+   /* Buy Button  */
+   .buy-btn {
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #FEC601;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .buy-btn {
+      width: 90px;
+      height: 35px;
+      margin-top: 10px;
+      background-color: #FEC601;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      color: #191970;
+      border: 1px solid #FEC601;
+      border-radius: 6px;
+    }
+  }
+
+
+
+
+
+
+  /* Sell Button  */
+  .sell-btn {
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #FEC601;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .sell-btn {
+      width: 90px;
+      height: 35px;
+      margin-top: 10px;
+      background-color: #FEC601;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      color: #191970;
+      border: 1px solid #FEC601;
+      border-radius: 6px;
+    }
+  }
+
+  .sell-btn:hover {
+    background-color: #191970;
+    color: #ffffff;
+  }
+
+
+  /* Bulk Purchase  */
+  .bulk-btn {
+    background-color: #ffffff;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin-right: 300px; */
+  }
+  

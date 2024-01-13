@@ -1,0 +1,235 @@
+div {
+  margin-top: 65px; /*This margin affects all div*/
+  
+}
+
+
+.banner-color {
+  /* background-color: rgb(238, 27, 27) !important; */
+  margin-bottom: 100px;
+}
+
+
+
+#header-text {
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  align-items: flex-end;
+  color: #191970;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  #header-text {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    display: none;
+    align-items: flex-end;
+    color: #191970;
+    flex: none;
+    margin-right: 100px !important;
+    justify-content: center;
+  }
+}
+
+
+#banner-ring-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #banner-ring-mobile {
+    /* font-family: 'Source Serif Pro'; */
+    /* font-style: normal; */
+    /* font-weight: 600px; */
+    /* font-size: 45px; */
+    display: flex;
+    width: 350px;
+    /* align-items: flex-end; */
+    /* color: #191970; */
+    /* flex: none; */
+    /* margin-right: 100px !important; */
+    /* justify-content: center; */
+  }
+}
+
+
+
+
+
+
+.bullet-points {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  color: #191970;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+  .bullet-points {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 520;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    color: #191970;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 20px;
+  }
+}
+
+.banner-qoute {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+  color: #191970;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 150px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  
+  } */
+
+@media only screen and (max-width: 600px) {
+  .banner-qoute {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    color: #191970;
+    margin-left: -10px;
+    text-align: center;
+    margin-top: -55px;
+  }
+}
+
+
+.join-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 5px;
+  color: #191970;
+  margin-left: 240px !important;
+  margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .join-text {
+    color: #191970 !important;
+    margin-left: 25px !important;
+    margin-top: 10px !important;
+  }
+}
+
+#underline {
+  width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  #underline {
+    display: none;
+  }
+}
+
+/* Buy Button  */
+.banner-start-btn {
+  width: 180px;
+  height: 40px;
+  margin-top: 17px;
+  background-color: #fec601;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 25px;
+  color: #191970;
+  border: 1px solid #fec601;
+  border-radius: 6px;
+  margin-left: 80px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.banner-start-btn:hover {
+  background-color: #191970;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-start-btn {
+    width: 250px !important;
+    height: 60px;
+    margin-left: 10px !important;
+    background-color: #fec601;
+    text-decoration: none;
+    font-size: 25px;
+    color: #191970;
+    border: 1px solid #fec601;
+    border-radius: 6px;
+    line-height: 2px;
+    margin-top: -150px;
+  }
+}
+
+/* Join our community button  */
+.banner-community-btn {
+  background-color: #ffffff;
+  color: #191970;
+  border: 1px solid #fec601;
+  border-radius: 6px;
+  width: 198px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-community-btn {
+    background-color: #fff;
+    border: 1px solid #fec601;
+    border-radius: 6px;
+    width: 220px !important;
+    height: 60px !important;
+    font-size: 18px;
+    margin-top: -18px !important;
+    margin-left: 10px;
+  }
+}
+
+#banner-img {
+  position: absolute;
+  width: 400px;
+  height: 370px;
+  left: -100px;
+  top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  #banner-img {
+    display: none;
+    
+  }
+}

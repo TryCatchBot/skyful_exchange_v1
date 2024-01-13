@@ -1,0 +1,165 @@
+
+
+@media screen and (max-width: 600px) {
+    .why-parent-margin {
+        margin-top: 500px;
+    }
+}
+
+
+
+
+
+.hover1:hover {
+    background-color: rgba(254, 198, 1, 0.15);
+    border: 1px solid #fec601;
+    border-radius: 10px;
+    height: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .hover1 {
+        background-color: rgba(254, 198, 1, 0.15);
+        border: 1px solid #fec601;
+        border-radius: 10px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.why-bullstand {
+    font-weight: 800;
+    font-size: 35px;
+    color: #191970;
+    margin-top: 15px;
+    margin-bottom: -30px;
+    background-color: rgba(254, 198, 1, 0.15);
+}
+
+
+.speed-ease {
+    font-weight: 450;
+    font-size: 18px;
+}
+
+
+/* .speed-icon {
+
+} */
+
+
+.speed-ease-text {
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+
+.hover2:hover {
+    background-color: rgba(254, 198, 1, 0.15);
+    border: 1px solid #fec601;
+    border-radius: 10px;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .hover2 {
+        background-color: rgba(254, 198, 1, 0.15);
+        border: 1px solid #fec601;
+        border-radius: 10px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+.is-secure {
+    font-weight: 450;
+    font-size: 18px;
+}
+
+
+/* .secure-icon {
+
+} */
+
+
+.is-secure-text {
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+
+
+.hover3:hover {
+    background-color: rgba(254, 198, 1, 0.15);
+    border: 1px solid #fec601;
+    border-radius: 10px;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .hover3 {
+        background-color: rgba(254, 198, 1, 0.15);
+        border: 1px solid #fec601;
+        border-radius: 10px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.customer-focused {
+    font-weight: 450;
+    font-size: 18px;
+}
+
+
+
+/* .customer-focused-icon {
+
+} */
+
+.customer-focused-text {
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+
+
+.hover4:hover {
+    background-color: rgba(254, 198, 1, 0.15);
+    border: 1px solid #fec601;
+    border-radius: 10px;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .hover4 {
+        background-color: rgba(254, 198, 1, 0.15);
+        border: 1px solid #fec601;
+        border-radius: 10px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.good-rate {
+    font-weight: 450;
+    font-size: 18px;
+}
+
+
+/* .good-rate-icon {
+
+} */
+
+.good-rate-text {
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 12px;
+}

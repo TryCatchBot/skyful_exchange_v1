@@ -1,0 +1,251 @@
+.sell-now-parent {
+    background-color: white;
+    border: grey 1px;
+    width: 1200px;
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /*more  at https://getcssscan.com/css-box-shadow-examples*/
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sell-now-parent {
+      background-color: white !important;
+      width: 98%;
+      position: relative;
+      margin-left: -1px;
+    }
+  }
+  
+  
+  
+  .sell-header {
+    font-size: 40px;
+    padding-top: 10px;
+    color: #191970;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sell-header {
+      font-size: 30px;
+    }
+  }
+  
+  .select-coin-text {
+    font-weight: normal;
+    font-size: 15px;
+    color: #191970;
+  }
+  
+  
+  
+  .sell-dropdown {
+    width: 340px !important;
+    height: 35px;
+    margin-bottom: 25px;
+    border: 1px solid #dad8d8;
+    background-color: #ffffff;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sell-dropdown {
+      width: 250px !important;
+      height: 35px;
+      border: 1px solid #ffffff;
+      background-color: #ffffff;
+      margin-top: -10px;
+    }
+  }
+  
+  .warning {
+    background-color: #ffffcc;
+    border-left: 6px solid red;
+    margin-bottom: 25px;
+    font-size: 12px !important;
+    width: 340px !important;
+    margin-left: 105px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .warning {
+      background-color: #ffffcc;
+      border-left: 6px solid red;
+      margin-bottom: 25px;
+      font-size: 12px !important;
+      width: 230px !important;
+      margin-left: 20px;
+    }
+  }
+  
+  #sell-network {
+    margin-bottom: 5px;
+  }
+  
+  .input-field-text1 {
+    font-weight: normal;
+    font-size: 15px;
+    color: #191970;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .input-field-text1 {
+      font-weight: normal;
+      font-size: 13px;
+      color: #191970;
+    }
+  }
+  
+  #asset-amount {
+    margin-right: 180px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #asset-amount {
+      margin-right: 10px;
+    }
+  }
+  
+  
+  
+  
+  .amount-calc {
+    background-color: #ddffdd;
+    border-left: 6px solid #04AA6D;
+    margin-bottom: 25px;
+    font-size: 15px !important;
+    width: 340px !important;
+    margin-left: 105px;
+    margin-top: -20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .amount-calc {
+      background-color: #ddffdd;
+      border-left: 6px solid #04AA6D;
+      margin-bottom: 25px;
+      font-size: 12px !important;
+      width: 230px !important;
+      margin-left: 25px;
+    }
+  }
+  
+  #input-field {
+    width: 340px;
+    height: 35px;
+    margin-bottom: 25px;
+    border: 1px solid #dad8d8;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    #input-field {
+      width: 240px;
+      height: 35px;
+      border: 1px solid #ffffff;
+    }
+  }
+  
+  
+  .order-div-one-of-two {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .order-div-one-of-two {
+      display: block;
+    }
+  }
+  
+  .order-div-two-of-two {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .order-div-two-of-two {
+      display: none;
+    }
+  }
+  
+  .sell-submit-btn {
+    width: 340px !important;
+    height: 40px;
+    font-size: 20px;
+    color: #191970;
+    background-color: #fec601;
+    border: 1px solid #fec601;
+    margin-bottom: 30px;
+  }
+  
+  .sell-submit-btn:hover {
+    width: 280px;
+    height: 40px;
+    font-size: 20px;
+    color: #fec601;
+    background-color: #191970;
+    border: 1px solid #191970;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sell-submit-btn {
+      width: 100% !important;
+      height: 40px;
+      font-size: 20px;
+      color: #191970;
+      background-color: #fec601;
+      border: 1px solid #fec601;
+    }
+  }
+  
+  
+  
+  .box {
+    border: #191970 none 1px;
+    height: 120px;
+    width: 350px;
+    margin-left: 50px;
+    box-shadow: rgba(240, 235, 235, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    background-color: #f3f3f3;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 100px;
+      margin-left: 50px;
+    }
+  
+    
+  }
+  
+  .sell-price {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    color: #e5e4e2;
+    border: 1px none white;
+    height: 35px;
+    font-size: 14px;
+    background-color: #ffffff;
+    cursor: text !important;
+  }
+  
+  .trade-p2p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    color: #9e9c98;
+    border: 1px none red;
+    height: 35px;
+    font-size: 14px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .trade-p2p:hover {
+    color: #ffffff;
+    background-color: #191970;
+  }
+  
+  
+  

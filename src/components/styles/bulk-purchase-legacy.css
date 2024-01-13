@@ -1,0 +1,256 @@
+@media screen and (max-width: 600px) {
+  .bulk-aligning {
+  margin-bottom: -480px; /*Use this for the last component*/
+  margin-top: 550px;
+  background-color: #FFFFF0 !important;
+  }
+}
+
+
+#bulk-trolley {
+  width: 250px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #bulk-trolley {
+    width: 230px;
+  }
+}
+
+
+
+
+#bulk-header-text {
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  align-items: flex-end;
+  color: #191970;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: -120px;
+  margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #bulk-header-text {
+    /* font-family: 'Source Serif Pro'; */
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-end;
+    color: #191970;
+    flex: none;
+    margin-left: 10px !important;
+    justify-content: center;
+    /* text-decoration: underline #FEC601; */
+  }
+}
+
+.bulk-qoute {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+  color: #191970;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: -120px;
+  margin-top: -60px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    
+    } */
+
+@media only screen and (max-width: 600px) {
+  .bulk-qoute {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    color: #191970;
+    margin-left: -10px;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: -55px;
+  }
+}
+
+#bulk-underline {
+  /* margin-right: 230px; */
+  margin-top: -20px;
+  width: 140px;
+}
+
+@media only screen and (max-width: 600px) {
+  #bulk-underline {
+    /* margin-left: 200px !important;*/ /* This is introducing width scroll in mobile view  */
+    width: 150px;
+    /* display: none; */
+  }
+}
+
+.bulk-partner {
+  margin-right: 350px;
+  font-size: 18px;
+  background-color: #fec601;
+}
+
+
+@media screen and (max-width: 600px){
+  .bulk-partner {
+    margin-right: -5px !important;
+    background-color: #fec601;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+li {
+  margin-right: 350px;
+  font-size: 16px;
+  list-style: none;
+  text-align: justify;
+  white-space: pre;
+}
+
+
+@media screen and (max-width: 600px) {
+  li {
+    font-size: 11px;
+    list-style: none;
+    word-break: break-all;
+    text-align: justify !important;
+  text-justify: inter-word !important;
+  }
+}
+
+
+.bulk-bullet-arrow {
+  color: #fec601;
+  font-size: 30px !important;
+}
+
+.buy-first {
+  margin-left: -70px !important;
+}
+
+
+@media  screen and (max-width: 600px) {
+  .bulk-bullet-arrow {
+    color: #fec601;
+    font-size: 10px !important;
+    /* margin-right: 120px; */
+  }
+}
+
+
+
+
+
+
+
+/* Buy Button  */
+.bulk-trade-btn {
+  width: 250px;
+  height: 50px;
+  margin-top: 25px !important;
+  background-color: #FEC601;
+  font-weight: 700;
+  font-size: 22px;
+  color: #191970;
+  border: 1px solid #FEC601;
+  border-radius: 6px;
+  margin-right: 300px;
+  cursor: pointer;
+  border-top: 1px solid rgba(255, 255, 255, 0.363);
+  text-align: center;
+
+}
+
+.second-div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+.inner-ul {
+  border: 1px solid red;
+  background-color: #aeaeec;
+  z-index: 1;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul li { 
+  display: inline-block;
+}
+
+
+/* ul li:hover {background: #555;} */
+ul li:hover ul {
+  display: block;
+}
+
+
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+
+
+ul li ul li { 
+  /* background: #555;  */
+  display: block; 
+}
+
+
+ul li ul li a {
+  display:block !important;
+} 
+
+
+
+
+li a:hover {
+  color: red;
+}
+
+
+/* .bulk-trade-btn:hover {
+  background-color: #191970 !important;
+  color: #FEC601;
+  transition: 0.5s;
+  border: 1px solid #191970;
+} */
+
+@media only screen and (max-width: 600px) {
+  .bulk-trade-btn {
+    width: 250px !important;
+    margin-right: 15px !important;
+    background-color: #FEC601;
+    text-decoration: none;
+    font-size: 25px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    line-height: 2px;
+    margin-bottom: 30px;
+  }
+}

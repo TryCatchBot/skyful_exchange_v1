@@ -1,0 +1,25 @@
+/* ... (previous styles) ... */
+
+.toggle-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; /* Set the desired width of the toggle buttons container */
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.toggle-button.active {
+  background-color: #28a745; /* Set the active background color */
+  color: #fff;
+}
+
+.toggle-button:hover {
+  background-color: #218838;
+}

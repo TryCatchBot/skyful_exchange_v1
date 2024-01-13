@@ -1,0 +1,408 @@
+
+
+
+
+@media screen and (max-width: 600px) {
+  #mobile-styling {
+    max-width: 100%;
+    margin-top: -10px;
+  }
+}
+
+.color {
+  background-color: rgba(254, 98, 1, 0.15);
+  /* background-color: #8E8E8E; */
+    
+}
+
+
+
+
+a:link {
+  text-decoration: none;
+  color:  #191970;
+}
+
+.chart-link {
+  color:  #191970;
+}
+
+
+
+
+/* Solutions */
+  .links-header1 {
+      font-size: 25px;
+      color:  #191970;
+      margin-left: 70px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .links-header1 {
+      font-size: 25px;
+      color:  #191970;
+      margin-left: -220px;
+      /* line-height: 5px; */
+  }
+  }
+
+  .links-item1 {
+      font-size: 14px;
+      color:  #191970 !important;
+      margin-left: 40px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .links-item1 {
+      font-size: 14px;
+      color:  #191970 !important;
+      margin-left: -250px;
+  }
+  }
+
+  #bulk {
+    margin-left: 60px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #bulk {
+      margin-left: -235px;
+    }
+  }
+
+
+  /* Support */
+  .links-header2 {
+    font-size: 25px;
+    color:  #191970;
+    margin-right: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .links-header2 {
+    font-size: 25px;
+    color:  #191970;
+    margin-left: -170px;
+}
+}
+
+
+/* Rate */
+.rate {
+    font-size: 14px;
+    color:  #191970 !important;
+    margin-right: 47px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rate {
+    font-size: 14px;
+    color:  #191970 !important;
+    margin-left: -170px;
+}
+}
+
+/* FAQ */
+.faq {
+  font-size: 14px;
+  color:  #191970 !important;
+  margin-right: 130px;
+}
+
+@media only screen and (max-width: 600px) {
+.faq {
+  font-size: 14px;
+  color:  #191970 !important;
+  margin-left: -170px;
+}
+}
+
+
+
+/* Contact */
+.contact {
+  margin-right: 50px;
+  font-size: 14px;
+  color:  #191970 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    margin-left: -170px;
+  }
+}
+
+
+
+
+/* Buy From Us */
+.links-header3 {
+  font-size: 25px;
+  color:  #191970;
+  margin-right: 170px;
+}
+
+@media only screen and (max-width: 600px) {
+.links-header3 {
+  font-size: 25px;
+  color:  #191970;
+  margin-left: -50px;
+  line-height: -100px;
+}
+}
+
+/* .links-item3 {
+  font-size: 14px;
+  color:  #191970 !important;
+  margin-right: 135px;
+} */
+
+/* @media only screen and (max-width: 600px) {
+.links-item3 {
+  font-size: 14px;
+  color:  #191970 !important;
+  margin-left: 135px;
+}
+} */
+
+
+/* Buy Bitcoin */
+.list1 {
+margin-right: 210px;
+list-style: none;
+font-size: 14px;
+color:  #191970 !important;
+}
+
+@media only screen and (max-width: 600px) {
+.list1 {
+  margin-left: -50px;
+}
+}
+
+
+/* Buy Ethereum */
+.list2 {
+  margin-right: 210px;
+  list-style: none;
+  font-size: 14px;
+  color:  #191970 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .list2 {
+    margin-left: -50px;
+  }
+  }
+
+
+  /* Buy USDT */
+.list3 {
+  margin-right: 220px;
+  list-style: none;
+  font-size: 14px;
+  color:  #191970 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .list3 {
+    margin-left: -50px;
+  }
+  }
+
+
+   /* Buy Doge Coin */
+.list4 {
+  margin-right: 215px;
+  list-style: none;
+  font-size: 14px;
+  color:  #191970 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .list4 {
+    margin-left: -50px;
+  }
+  }
+
+   /* Buy BUSD */
+.list5 {
+  margin-right: 200px;
+  list-style: none;
+  font-size: 14px;
+  color:  #191970 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .list5 {
+    margin-left: -50px;
+  }
+  }
+
+   /* Buy DAI */
+.list6 {
+  margin-right: 185px;
+  list-style: none;
+  font-size: 14px;
+  color:  #191970 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .list6 {
+    margin-left: -50px;
+  }
+  }
+
+    /* Buy BNB */
+.list7 {
+  margin-right: 180px;
+  list-style: none;
+  font-size: 14px;
+  color:  #191970 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .list7 {
+    margin-left: -50px;
+  }
+  }
+
+
+  /* Join our community button  */
+  .footer-community-btn {
+    background-color: #ffffff;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    width: 198px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 300px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .footer-community-btn {
+      /* background-color: #ffffff;
+      border: 1px solid #FEC601;
+      border-radius: 6px;
+      width: 150px  !important;
+      font-size: 15px;
+      margin-top: 10px;
+      margin-left: 1px; */
+      display: none;
+    }
+    }
+
+
+
+
+.newsletter { 
+    font-size: 15px;
+    color: #191970;
+    margin-top: 10px ;
+    margin-right: 180px;
+     /* background-color: #ea0b0b; */
+}
+
+
+@media only screen and (max-width: 600px) {
+  .newsletter { 
+    /* font-size: 10px;
+    color: #191970;
+    margin-top: 10px ;
+    margin-right: 128px; */
+    display: none;
+}
+  }
+
+ 
+  @media only screen and (max-width: 600px) {
+    .socials {
+      width: 100px !important;
+      margin-bottom: 10px;
+      display: inline;
+    }
+
+    /* #whatsapp-connection {
+      display: inline;
+    }
+
+    #telegram-connection {
+      display: inline;
+    } */
+    }
+
+    #whatsapp-connection {
+      width: 30px;
+      margin-left: -20px;
+    }
+
+    /* @media screen and (max-width: 600px) {
+      #whatsapp-connection {
+        margin-right: 10px;
+      }
+    } */
+
+    .whatsapp-text {
+      font-size: 18px;
+      font-weight: 400px;
+    }
+
+    #telegram-connection {
+      width: 30px;
+      /* margin-left: 20px; */
+    }
+
+
+    /* @media only screen and (max-width: 600px) {
+      #instagram {
+        box-sizing: border-box;
+        float: left;
+        display: table;
+      }
+      } */
+
+      /* #instagram {
+        width: 35px;
+        margin-left: 180px;
+        margin-top: -1000px !important;
+        padding-top: -100px;
+      } */
+  
+      @media screen and (max-width: 600px) {
+        #instagram {
+          margin-right: -200px;
+        }
+      }
+
+
+
+  .terms {
+    color: #191970;
+    margin-right:1030px;
+    /* line-height: -60px !important; */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .terms {
+      color: #191970;
+      /* margin-right:1030px; */
+      width: 50%;
+      line-break: auto;
+    }
+    }
+
+  .copyright {
+    color: #191970;
+    margin-left:450px;
+    margin-top: -30px !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .copyright {
+      color: #191970;
+      margin-left: -150px !important;
+      margin-top: 10px !important;
+    }
+  }

@@ -1,0 +1,231 @@
+.sell-form {
+  margin-top: 60px !important;
+  /* margin-bottom: 70px !important; */
+}
+
+
+
+.buy-header {
+  font-size: 40px;
+  padding-top: 10px;
+  color: #191970;
+}
+
+.sell-onp2p-btn {
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+}
+
+.select-coin-text {
+  font-weight: normal;
+  font-size: 15px;
+  color: #191970;
+  
+}
+
+/* #coin-text {
+  margin-right: 45px;
+}
+
+@media screen and(max-width: 600px) {
+  #coin-text {
+    margin-left: 1000px !important;
+  }
+} */
+
+.sell-dropdown {
+  width: 340px !important; 
+  height: 35px;
+  margin-bottom: 25px;
+  border: 1px solid #dad8d8;
+}
+
+@media screen and (max-width: 600px) {
+  .sell-dropdown {
+    width: 280px !important;
+    height: 35px;
+    border: 1px solid #ffffff;
+  }
+}
+
+.network-warning {
+  background-color: #ffffcc;
+  border-left: 6px solid red;
+  margin-bottom: 25px;
+  font-size: 12px !important;
+  width: 340px !important;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .network-warning {
+    background-color: #ffffcc;
+    border-left: 6px solid red;
+    margin-bottom: 25px;
+    font-size: 12px !important;
+    width: 230px !important;
+    /* margin-left: 40px; */
+  }
+}
+
+#sell-network {
+  margin-bottom: 5px;
+}
+
+.option {
+  font-weight: normal !important;
+  font-size: 13px !important;
+}
+
+
+.option-focus {
+  font-weight: normal !important;
+  font-size: 17px !important;
+}
+
+
+.input-field-text {
+  font-weight: normal;
+  font-size: 15px;
+  color: #191970;
+}
+
+
+@media screen and (max-width: 600px) {
+  .input-field-text {
+    font-weight: normal;
+    font-size: 13px;
+    color: #191970;
+  }
+}
+
+#asset-amount {
+  margin-right: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  #asset-amount {
+    margin-right: 150px;
+  }
+}
+
+
+
+
+.amount-calc {
+  background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+  margin-bottom: 25px;
+  font-size: 15px !important;
+  width: 340px !important;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 600px) {
+  .amount-calc {
+    background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+    margin-bottom: 25px;
+    font-size: 12px !important;
+    width: 230px !important;
+    /* margin-left: 40px; */
+  }
+}
+
+#input-field {
+  width: 340px;
+  height: 35px;
+  margin-bottom: 25px;
+  border: 1px solid #dad8d8;
+  
+}
+
+@media screen and (max-width: 600px) {
+  #input-field {
+    width: 280px;
+    height: 35px;
+    border: 1px solid #ffffff;
+  }
+}
+
+
+.sell-submit-btn {
+  width: 340px !important;
+  height: 40px;
+  font-size: 20px;
+  color: #191970;
+  background-color: #fec601;
+  border: 1px solid #fec601;
+  margin-bottom: 30px;
+}
+
+.sell-submit-btn:hover {
+  width: 280px;
+  height: 40px;
+  font-size: 20px;
+  color: #fec601;
+  background-color: #191970;
+  border: 1px solid #191970;
+}
+
+@media screen and (max-width: 600px) {
+  .sell-submit-btn {
+    width: 100% !important;
+    height: 40px;
+    font-size: 20px;
+    color: #191970;
+    background-color: #fec601;
+    border: 1px solid #fec601;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Amount Tooltip  */
+#tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#tooltip #tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+#tooltip #tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+#tooltip:hover #tooltiptext {
+  visibility: visible;
+}
+/* End Amount Tooltip  */
+
+

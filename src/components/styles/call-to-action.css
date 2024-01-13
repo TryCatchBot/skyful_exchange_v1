@@ -1,0 +1,126 @@
+
+@media screen and (max-width: 600px) {
+.call-top {
+    margin-top: -10px !important;
+}
+}
+
+
+
+.call2action-header-text {
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 31px;
+/* display: flex; */
+/* align-items: flex-end; */
+color: #191970;
+margin-top: 50px;
+margin-bottom: -30px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .call2action-header-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        /* line-height: 31px; */
+        /* display: flex; */
+        /* align-items: flex-end; */
+        color: #191970;
+        margin-top: 50px;
+        margin-bottom: -45px;
+        }
+}
+
+
+
+
+
+
+/* Buy Button  */
+.start-trading-btn {
+    width: 180px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #FEC601;
+    font-weight: 600;
+    font-size: 18px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    margin-right: 50px;
+    cursor: pointer;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.363); */
+    text-align: center;
+    margin-left: 450px;
+  }
+
+  .start-trading-btn:hover {
+    color:#FEC601;
+    background-color: #191970;
+    border: 1px solid red;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .start-trading-btn {
+      width: 270px !important;
+      margin-right: 40px !important;
+      height: 50px;
+      float: right;
+      background-color: #FEC601;
+      text-decoration: none;
+      font-size: 25px;
+      color: #191970;
+      border: 1px solid #FEC601;
+      border-radius: 6px;
+      line-height: 2px;
+    }
+  }
+
+
+
+
+  .join-btn {
+    width: 180px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: #Fff;
+    font-weight: 600;
+    font-size: 15px;
+    color: #191970;
+    border: 1px solid #FEC601;
+    border-radius: 6px;
+    margin-right: 420px;
+    cursor: pointer;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.363); */
+    text-align: center;
+    /* margin-left: 450px; */
+  }
+
+
+  @media  screen and (max-width: 600px) {
+    .join-btn {
+        width: 190px;
+        height: 35px;
+        margin-top: 30px;
+        background-color: #Fff;
+        font-weight: 600;
+        font-size: 15px;
+        color: #191970;
+        border: 1px solid #FEC601;
+        border-radius: 6px;
+        margin-right: -20px;
+        cursor: pointer;
+        /* border-top: 1px solid rgba(255, 255, 255, 0.363); */
+        text-align: center;
+        /* margin-left: 450px; */
+      }
+      
+  }
+  
+  
+
+
+/*  */

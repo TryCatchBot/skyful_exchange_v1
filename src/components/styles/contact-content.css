@@ -1,0 +1,134 @@
+.complete-sell-parent {
+    background-color: white;
+    border: grey 1px;
+    width: 1200px;
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /*more  at https://getcssscan.com/css-box-shadow-examples*/
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .complete-sell-parent {
+      background-color: white !important;
+      width: 100%;
+      position: relative;
+      margin-left: -1px;
+    }
+  }
+
+
+
+
+.contact-content-header {
+    font-size: 40px;
+    padding-top: 10px;
+    color: #191970;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-content-header {
+      font-size: 30px;
+    }
+  }
+
+
+  .reachout-info {
+    font-size: 45px;
+    padding-top: 10px;
+    color: #191970;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .reachout-info {
+      font-size: 30px;
+      padding-top: 10px;
+      color: #191970;
+    }
+  }
+
+  /* .call-text {
+    font-size: 18px;
+    padding-top: 10px;
+    color: #191970;
+    font-weight: 600px;
+  } */
+
+  .contact-email {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+
+  /* Join our community button  */
+.banner-community-btn {
+  background-color: #ffffff;
+  color: #191970;
+  border: 1px solid #fec601;
+  border-radius: 6px;
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-community-btn {
+    background-color: #fff;
+    border: 1px solid #fec601;
+    border-radius: 6px;
+    width: 180px !important;
+    height: 60px !important;
+    font-size: 18px;
+    margin-top: -18px !important;
+    margin-left: 10px;
+  }
+}
+
+
+
+  .or-text {
+    font-size: 18px;
+    font-weight: 400px;
+  }
+
+
+  /* #whatsapp-connection {
+    width: 30px;
+    margin-left: -20px;
+  } */
+
+
+
+  .complete-sell-submit-btn {
+    width: 340px !important;
+    height: 40px;
+    font-size: 20px;
+    color: #191970;
+    background-color: #fec601;
+    border: 1px solid #fec601;
+    margin-bottom: 30px;
+    margin-right:-10px;
+  }
+  
+  .complete-sell-submit-btn:hover {
+    width: 280px;
+    height: 40px;
+    font-size: 20px;
+    color: #fec601;
+    background-color: #191970;
+    border: 1px solid #191970;
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    .complete-sell-submit-btn {
+      width: 320px !important;
+      height: 40px;
+      font-size: 20px;
+      color: #191970;
+      background-color: #fec601;
+      border: 1px solid #fec601;
+    }
+  }

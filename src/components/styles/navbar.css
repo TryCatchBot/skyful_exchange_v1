@@ -1,0 +1,30 @@
+#logo {
+  margin-top: 17px !important;
+}
+
+@media screen and (max-width: 600px) {
+  #logo-span1 {
+    display: none;
+    margin-right: 100px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  #logo-span1 {
+    /* position: fixed; */
+    /* position: absolute; */
+    background-image: url('https://res.cloudinary.com/pastorcoder/image/upload/v1661429990/BullStand/bullstand-logo-.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110px !important;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue); */
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  }

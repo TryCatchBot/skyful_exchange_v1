@@ -1,0 +1,107 @@
+
+
+#binance-p2p {
+    color: #191970 !important;
+    width: 150px !important;
+    height: 40px !important;
+    border: 1px solid #fec601;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#binance-p2p:hover {
+    color: #fec601 !important;
+    width: 160px !important;
+    height: 50px !important;
+    border: 1px solid #191970;
+    font-size: 20px;
+    background-color: #191970;
+}
+
+
+@media screen and (max-width: 600px) {
+    #binance-p2p {
+        color: #191970 !important;
+        width: 150px !important;
+        height: 40px !important;
+        border: 1px solid #fec601;
+        font-size: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #kucoin-p2p {
+        color: #191970 !important;
+        width: 150px !important;
+        height: 40px !important;
+        border: 1px solid #fec601;
+        font-size: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #gate-p2p {
+        color: #191970 !important;
+        width: 150px !important;
+        height: 40px !important;
+        border: 1px solid #fec601;
+        font-size: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+#kucoin-p2p {
+    color: #191970 !important;
+    width: 150px !important;
+    height: 40px !important;
+    border: 1px solid #fec601;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#kucoin-p2p:hover {
+    color: #fec601 !important;
+    width: 160px !important;
+    height: 50px !important;
+    border: 1px solid #191970;
+    font-size: 20px;
+    background-color: #191970;
+}
+
+
+
+#gate-p2p {
+    color: #191970 !important;
+    width: 150px !important;
+    height: 40px !important;
+    border: 1px solid #fec601;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#gate-p2p:hover {
+    color: #fec601 !important;
+    width: 160px !important;
+    height: 50px !important;
+    border: 1px solid #191970;
+    font-size: 20px;
+    background-color: #191970;
+}

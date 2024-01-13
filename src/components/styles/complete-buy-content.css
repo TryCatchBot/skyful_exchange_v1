@@ -1,0 +1,238 @@
+.complete-buy-parent {
+    background-color: white;
+    border: grey 1px;
+    width: 1200px;
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /*more  at https://getcssscan.com/css-box-shadow-examples*/
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .complete-buy-parent {
+      background-color: white !important;
+      width: 100%;
+      position: relative;
+      margin-left: -1px;
+    }
+  }
+  
+  
+  
+  
+  .complete-sell-header {
+      font-size: 40px;
+      padding-top: 10px;
+      color: #191970;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .complete-sell-header {
+        font-size: 30px;
+      }
+    }
+  
+  
+    .copy-toastify {
+      font-size: 18px;
+    }
+
+    .big-red {
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .warning {
+      background-color: #ffffcc;
+      border-left: 6px solid #32CD32;
+      /* margin-bottom: 25px; */
+      font-size: 12px !important;
+      width: 340px !important;
+      margin-left: 420px;
+    }
+
+    
+    @media screen and (max-width: 600px) {
+      .warning {
+        background-color: #ffffcc;
+        border-left: 6px solid #32CD32;
+        margin-bottom: 25px;
+        font-size: 12px !important;
+        width: 335px !important;
+        margin-left: 2px;
+      }
+    }
+
+    .big-red2 {
+      color: red;
+      font-size: 25px;
+      /* font-weight: bold; */
+    }
+  
+
+    
+  
+    .bank-text {
+      font-size: 20px;
+      /* font-weight: normal; */
+      /* font-size: 15px; */
+      color: #191970;
+    }
+  
+    @media screen and (max-width: 600px) {
+      .bank-text {
+        /* float: left; */
+        font-weight: normal;
+        font-size: 15px;
+        color: #191970;
+      }
+    }
+  
+  
+    .bank-account-number {
+      font-size: 15px;
+      font-weight: normal;
+      color: #191970;
+    }
+  
+    @media screen and (max-width: 600px) {
+      .bank-account-number {
+        margin-left: -35px;
+        font-weight: normal;
+        font-size: 14px;
+        color: #191970;
+      }
+    }
+  
+    .copy-icon {
+      cursor: pointer;
+    }
+  
+  
+    
+  
+    .txn-id-text {
+      font-weight: normal;
+      font-size: 15px;
+      color: #191970;
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .txn-id-text {
+        font-weight: normal;
+        font-size: 13px;
+        color: #191970;
+      }
+    }
+    
+    #txn-id {
+      margin-right: 240px;
+    }
+    
+    @media screen and (max-width: 600px) {
+      #txn-id {
+        margin-right: 200px;
+      }
+    }
+  
+  
+  
+    #txn-field {
+      width: 340px;
+      height: 35px;
+      margin-bottom: 25px;
+      border: 1px solid #dad8d8;
+      /* margin-right: 130px !important; */
+    }
+    
+    @media screen and (max-width: 600px) {
+      #txn-field {
+        width: 280px;
+        height: 35px;
+        border: 1px solid #a09c9c;
+        /* margin-right: 170px !important; */
+      }
+    }
+  
+  
+  
+    .upload-text {
+      margin-right: -20px;
+      font-weight: normal;
+      font-size: 15px;
+      color: #191970;
+    }
+  
+  
+    @media screen and (max-width: 600px) {
+      .upload-text {
+        margin-right: 20px;
+        font-weight: normal;
+        font-size: 14px;
+        color: #191970;
+      }
+    }
+  
+    
+  
+  
+    .uploadcare--widget__button_type_open {
+      background-color: blue;
+      width: 90px;
+      /* margin-right: 90px; */
+      color: white;
+      margin-bottom: 20px;
+    }
+  
+  
+    @media screen and (max-width: 600px) {
+      .uploadcare--widget__button_type_open {
+        background-color: blue;
+        width: 120px;
+        height: 35px;
+        margin-right: 90px;
+        color: white;
+        margin-bottom: 20px;
+      }
+    }
+  
+   
+  
+  
+    .complete-buy-submit-btn {
+      width: 340px !important;
+      height: 40px;
+      font-size: 20px;
+      color: #191970;
+      background-color: #fec601;
+      border: 1px solid #fec601;
+      margin-bottom: 30px;
+      /* margin-right:100px; */
+    }
+    
+    .complete-buy-submit-btn:hover {
+      width: 280px;
+      height: 40px;
+      font-size: 20px;
+      color: #fec601;
+      background-color: #191970;
+      border: 1px solid #191970;
+     
+    }
+    
+    @media screen and (max-width: 600px) {
+      .complete-buy-submit-btn {
+        width: 220px !important;
+        height: 40px;
+        font-size: 20px;
+        color: #191970;
+        background-color: #fec601;
+        border: 1px solid #fec601;
+        margin-right:70px;
+      }
+    }
+  
+  
+   
