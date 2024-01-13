@@ -54,7 +54,7 @@ const  WhyBullstand = () => {
         <Box p={4} bg={'black'}>
       <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
         <Heading fontSize={'3xl'} color={'green.400'}>
-          Why You Should Use Bullstand
+          Why You Should Use Skyful
         </Heading>
         <Text color={'gray.400'} fontSize={'xl'}>
         Elevate your transactions to new heights with our swift, secure, and simple platform. Enjoy low foreign exchange rates and the universal accessibility to send funds to any bank, regardless of the account name. Experience financial empowerment with ease. 🚀🛡️🌍

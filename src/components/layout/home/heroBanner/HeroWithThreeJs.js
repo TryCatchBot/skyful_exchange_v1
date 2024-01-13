@@ -116,7 +116,7 @@ const HeroWithThreeJs = () => {
               </Button>
             </Link>
 
-            <Link to="https://t.me/mybullstand" target="_blank">
+            <Link to="https://t.me/SkyfulExchange" target="_blank">
               <Button rounded={'full'}>Join Community</Button>
             </Link>
           </Stack>

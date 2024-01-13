@@ -95,14 +95,14 @@ export default function LargeWithNewsletter() {
             <Stack direction={'row'} spacing={6}>
               <SocialButton
                 label={'Telegram'}
-                href={'#'}
+                href={'https://t.me/SkyfulExchange'}
               >
                 <FaTelegram />
               </SocialButton>
               <SocialButton
                 label={'Twitter'}
                 href={
-                  '#'
+                  'https://twitter.com/iamskyful'
                 }
               >
                 <FaTwitter />
@@ -157,7 +157,7 @@ export default function LargeWithNewsletter() {
             <ListHeader >Stay up to date</ListHeader>
             <Stack direction={'row'}>
               <iframe
-                src="https://bullstand.substack.com/embed"
+                src="https://skyful.substack.com/embed"
                 width="350"
                 height="69"
                 frameborder="0"

@@ -35,9 +35,9 @@ export default function Contact() {
   //  const handleContactButtonClick = () => {
   //    navigate("/trade/sell/payment");
   //  };
-  const email = 'hello@bullstand.com';
+  const email = 'hello@skyful.com';
   const whatsappUrl =
-    'https://wa.me/2347039545534?text=Hi%20BullStand,%20I%20Just%20Completed%20Payment.%20Waiting%20to%20get%20to%20funded';
+    'https://wa.me/2348051599544?text=Hi%20Skyful,%20I%20Just%20Completed%20Payment.%20Waiting%20to%20get%20to%20funded';
 
   return (
     <div>

@@ -118,7 +118,7 @@ const HeroWithImage = () => {
               </Button>
             </Link>
 
-            <Link to="https://t.me/mybullstand" target="_blank">
+            <Link to="#" target="_blank">
               <Button rounded={'full'}  w={{ base: '100%',}} mb={"50px"}>Join Community</Button>
             </Link>
           </Stack>

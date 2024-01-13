@@ -17,7 +17,7 @@ const HomePage = () => {
     const currentTime = new Date().getHours();
 
     if (currentTime >= 0 && currentTime < 7) {
-      setComponentToShow(<HeroWithThreeJs />);
+      setComponentToShow(<HeroAnnotation  />);
     } else if (currentTime >= 7 && currentTime < 15) {
       setComponentToShow(<HeroAnnotation />);
     } else {
@@ -28,8 +28,9 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-      {componentToShow}
-      <PartnersMarquee />
+      {/* {componentToShow} */}
+      <HeroAnnotation  />
+      {/* <PartnersMarquee /> */}
       <WhyBullstand />
       <HowItWorks />
       <TestimoniesOne />
