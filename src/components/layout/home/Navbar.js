@@ -132,12 +132,12 @@ export default function Nav() {
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box>
             <span>
-              <Link to="/">
+              {/* <Link to="/">
                 <Image
                   cloudName="pastorcoder"
-                  publicId="BullStand/bullstand-logo-.svg"
+                  publicId="skyfulExchange/skyful-s-logo.png"
                 />
-              </Link>
+              </Link> */}
             </span>
           </Box>
 

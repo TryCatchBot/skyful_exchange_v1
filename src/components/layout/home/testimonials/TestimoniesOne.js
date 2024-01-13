@@ -107,7 +107,7 @@ const TestimoniesOne = () => {
             <TestimonialContent>
               <TestimonialHeading>Quick and Efficient</TestimonialHeading>
               <TestimonialText>
-                I experienced quick and efficient transactions with Bullstand
+                I experienced quick and efficient transactions with Skyful
                 exchange. Seamless trading, instant results! 💹🚀
                 #EfficiencyUnleashed
               </TestimonialText>
@@ -117,7 +117,7 @@ const TestimoniesOne = () => {
             </TestimonialContent>
             <TestimonialAvatar
               src={'https://twitter.com/moctar_mbaye/photo'}
-              name={'Biodun Adelaja'}
+              name={'Sunday Adetutu'}
               title={'Crypto Trader'}
             />
           </Testimonial>
@@ -136,7 +136,7 @@ const TestimoniesOne = () => {
             </TestimonialContent>
             <TestimonialAvatar
               src={'https://twitter.com/moctar_mbaye/photo'}
-              name={'Ruth Yussuf'}
+              name={'Jedida Ahmed'}
               title={'User'}
             />
           </Testimonial>
@@ -154,7 +154,7 @@ const TestimoniesOne = () => {
             </TestimonialContent>
             <TestimonialAvatar
               src={'https://twitter.com/moctar_mbaye/photo'}
-              name={'Abel Dare'}
+              name={'Abel John'}
               title={'Crypto Enthusiast'}
             />
           </Testimonial>

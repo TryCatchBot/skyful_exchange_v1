@@ -37,10 +37,10 @@ export default function TradeNavbar() {
           <li className="items">
             <span id="trade-logo">
               <Link to="/">
-                <Image
+                {/* <Image
                   cloudName="pastorcoder"
                   publicId="BullStand/bullstand-logo-.svg"
-                />
+                /> */}
               </Link>
             </span>
             {/**<span className="usdt">USDT</span>&nbsp;:&nbsp;&nbsp;

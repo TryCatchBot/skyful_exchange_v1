@@ -45,7 +45,7 @@
 }
 
 .yellow {
-  background-image: url('https://res.cloudinary.com/pastorcoder/image/upload/v1661429990/BullStand/steps-line.svg');
+  /* background-image: url('https://res.cloudinary.com/pastorcoder/image/upload/v1661429990/BullStand/steps-line.svg'); */
   /* background-image: url("../Components/StepsBulkWhyBullstand/Img/direction.svg"); */
   background-repeat: no-repeat;
   height: 300px;
@@ -60,7 +60,7 @@
 @media screen and (max-width: 600px) {
   .yellow-mobile {
     background-image: none;
-    background-image: url('https://res.cloudinary.com/pastorcoder/image/upload/v1661429990/BullStand/steps-mobile.svg');
+    /* background-image: url('https://res.cloudinary.com/pastorcoder/image/upload/v1661429990/BullStand/steps-mobile.svg'); */
     background-position: 170px !important;
     background-repeat: none;
     height: 400px !important;
